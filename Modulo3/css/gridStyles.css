@@ -1,0 +1,23 @@
+main {
+    padding: 7rem 0px;
+}
+
+.boxes {
+    height: calc(100vh - (7 * 2rem));
+    display: grid;
+    position: relative;
+    grid-template-columns: 4fr repeat(4, 2fr);
+    grid-template-rows: 1fr 2fr;
+
+}
+
+.box {
+    border: 4px solid #4e0b03;
+    background-color: rgb(219, 119, 112);
+    color: rgb(31, 2, 2);
+    font-size: 1.5rem;
+    text-align: center;
+    min-height: 5rem;
+    min-width: 10rem;
+
+}

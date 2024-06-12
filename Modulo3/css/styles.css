@@ -57,20 +57,21 @@ ul {
 }
 
 .boxes {
-    position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
 }
 
 .box {
     border: 1px solid #fff;
     height: 100px;
     width: 200px;
-    display: inline-block;
     padding: 15px;
-    margin: 15px;
-    position: relative;
+    margin: 50px;
+    flex: 33.33%;
 }
 
-.box:nth-child(1) {
+/* .box:nth-child(1) {
     position: relative;
     top: 25px;
     left: 50px;
@@ -78,11 +79,16 @@ ul {
 
 .box:nth-child(n + 2) {
     position: fixed;
-}
+} */
 
 img {
     display: block;
     width: 10rem;
     height: 10rem;
     object-fit: cover;
+}
+.contact-list h2{
+    position: sticky;
+    background-color: aquamarine;
+    top: 0px;
 }
