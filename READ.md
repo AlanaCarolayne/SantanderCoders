@@ -7,3 +7,4 @@
 ### Introdução ao HTML e explicação das principais tags e funcionalidades
 
 ## Módulo 3 - CSS
+
