@@ -7,4 +7,4 @@
 ### Introdução ao HTML e explicação e aplicação das principais tags e funcionalidades.
 
 ## Módulo 3 - CSS
-## Introdução ao CSS e explicação e aplicação das funcionalidades.
+### Introdução ao CSS e explicação e aplicação das funcionalidades.
